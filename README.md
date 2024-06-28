@@ -116,5 +116,9 @@ Creates scales (sliders) for adjusting brightness, contrast, sharpness, blur, hu
 
 This setup allows the user to interactively adjust these properties and see the results in real-time on their webcam feed.
 
+# How to open 💻
+
+Download the code and execute on Visual Studio Code (you may need to install all the libraries)
+
 =
 Luciano Valentino Achin Angeles
