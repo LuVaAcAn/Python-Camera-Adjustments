@@ -1,6 +1,7 @@
 ﻿# Informe Trabajo Final
 ## Procesamiento de Imágenes
 Luciano Valentino Achin Angeles (u202113624)
+Daniel Orlando Luis Lázaro (u202021900)
 # Introducción
 
 El presente informe detalla el desarrollo de una aplicación de procesamiento de video en tiempo real utilizando técnicas vistas durante el curso. La aplicación permite el acceso a la cámara web y realiza tareas de procesamiento de los frames del video, implementando al menos tres técnicas de procesamiento de imagen.
