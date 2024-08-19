@@ -49,42 +49,6 @@ El desarrollo de esta aplicación ha permitido explorar diversas técnicas de pr
 
 El presente informe detalla el desarrollo de una aplicación de procesamiento de video en tiempo real utilizando técnicas vistas durante el curso. La aplicación permite el acceso a la cámara web y realiza tareas de procesamiento de los frames del video, implementando al menos tres técnicas de procesamiento de imagen.
 
-# Objetivos
-
--   Desarrollar una aplicación de procesamiento de video en tiempo real: Utilizando Python y bibliotecas como OpenCV y TKinter para capturar y procesar video.
-    
--   Implementar tres técnicas de procesamiento de imagen: Aplicar ajustes de brillo, contraste y filtros.
-    
--   Evaluar la efectividad de las técnicas implementadas: Analizar cómo las técnicas mejoran o afectan la calidad del video en tiempo real.
-    
-
-# Desarrollo
-
-## Selección y Definición del Problema
-
--   Problema a solucionar: En muchas aplicaciones de videoconferencia y transmisión en vivo, es esencial mejorar la calidad de la imagen en tiempo real para ofrecer una mejor experiencia al usuario. Ajustes inadecuados de brillo, contraste y otros parámetros pueden afectar negativamente la visualización.
-    
--   Motivación: Mejorar la calidad de video en tiempo real puede tener un impacto significativo en la experiencia del usuario, especialmente en contextos de videoconferencia donde la claridad visual es crucial.
-    
--   Potencial solución: Implementar una aplicación que permita ajustar parámetros como brillo, contraste y aplicar filtros en tiempo real, mejorando la calidad del video capturado por la cámara web.
-    
-
-# Aplicación
-
-Para el desarrollo, se utilizó Python junto con la biblioteca OpenCV y TKinter. La aplicación permite el acceso a la cámara web y ofrece una interfaz para ajustar parámetros de brillo, contraste, nitidez, y aplicar diversos filtros en tiempo real.
-
-Desarrollo de la Aplicación:
-
-1.  Captura de Video: Se implementó un método para acceder a la cámara web del dispositivo y capturar el video en tiempo real. Esto es esencial para cualquier aplicación que trabaje con video en directo.
-    
-2.  Ajustes de Brillo y Contraste: Se añadió funcionalidad para que el usuario pueda modificar el brillo y el contraste del video en tiempo real, utilizando una escala ajustable a través de la interfaz.
-    
-3.  Filtros de Desenfoque: Se integraron filtros como desenfoque medio y desenfoque bilateral, permitiendo suavizar la imagen y reducir el ruido visual. Estos filtros pueden ser activados o desactivados según la preferencia del usuario.
-    
-4.  Balance de Color: Se implementaron controles para ajustar el balance de color (rojo, verde y azul), mejorando la representación de colores en el video capturado.
-    
-5.  Interfaz de Usuario: Se desarrolló una interfaz gráfica sencilla pero funcional que permite a los usuarios ajustar los diferentes parámetros de manera intuitiva. Los controles incluyen deslizadores para brillo, contraste, y balance de color, así como opciones para aplicar filtros de desenfoque.
-
 ## Código
     
     import cv2
